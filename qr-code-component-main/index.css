@@ -1,0 +1,50 @@
+/* Body */
+body{
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+
+}
+/* container */
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+/* card component */
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 1.2rem;
+    width: 18rem;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem;
+}
+
+/* img */
+.qrCode-img{
+    border-radius: 0.6rem;
+}
+
+/* text-body */
+.text-body{
+    padding: 0.5rem;
+}
+
+/* header2 */
+.header2{
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+
+/* text */
+.text{
+    color: hsl(220, 15%, 55%);
+    font-weight: 300;
+    /* font-size: 15px; */
+}
