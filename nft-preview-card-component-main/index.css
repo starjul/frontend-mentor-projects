@@ -1,0 +1,164 @@
+body {
+    height: 100vh;
+    max-width: 1440px;
+    min-width: 375px;
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    margin: 0px;
+}
+
+h3:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+a {
+    text-decoration: none;
+}
+
+span,
+img {
+    vertical-align: middle;
+    color: hsl(215, 51%, 70%);
+}
+
+hr {
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+}
+
+/* global css */
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+/* container */
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+    height: 100vh;
+}
+
+/* card */
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 1.2rem;
+    width: 18rem;
+    background-color: hsl(216, 50%, 16%);
+    padding: 1.3rem;
+    box-shadow: 1px 2px 20px 1px rgba(0, 0, 0, 0.1);
+}
+
+.img-container {
+    width: 100%;
+    position: relative;
+}
+
+.img {
+    display: block;
+    border-radius: 0.4rem;
+    border: 0px;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgb(0, 255, 247);
+    border-radius: 0.4rem;
+    border: 0px;
+}
+
+.view-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    height: auto;
+    width: auto;
+    opacity: 0;
+}
+
+.img-container:hover .img {
+    opacity: 1;
+}
+
+.img-container:hover .overlay {
+    opacity: 0.4;
+}
+.img-container:hover .view-icon {
+    opacity: 1;
+}
+
+.description {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.selling-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0.7rem;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+}
+
+/* Creator content */
+.creator-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.creator-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+}
+
+.name {
+    display: flex;
+    margin-left: 0.4rem;
+    color: white;
+}
+
+p.name:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+/* Avatar image */
+.avatar-img {
+    height: 2rem;
+    border-radius: 20px;
+    border: 1.5px solid white;
+    margin-right: 1rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
