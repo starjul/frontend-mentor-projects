@@ -8,7 +8,7 @@ body {
     margin: 0px;
 }
 
-h2:hover {
+h3:hover {
     cursor: pointer;
     color: hsl(178, 100%, 50%);
 }
@@ -120,10 +120,12 @@ hr {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 1.5rem;
+    margin-top: 0.3rem;
 }
 
 .price {
     color: hsl(178, 100%, 50%);
+    font-weight: 600;
 }
 
 /* Creator content */
@@ -160,9 +162,10 @@ p.name:hover {
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: 14px;
     text-align: center;
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(228, 65%, 59%);
+    margin: 4px;
 }
