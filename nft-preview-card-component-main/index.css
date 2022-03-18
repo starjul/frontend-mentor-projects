@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+p{
+    font-size: 18px;
+}
+
 span,
 img {
     vertical-align: middle;
@@ -115,7 +119,7 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 0.7rem;
+    margin-bottom: 1rem;
 }
 
 .price {
